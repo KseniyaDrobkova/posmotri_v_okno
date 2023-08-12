@@ -36,3 +36,29 @@ ul,
 ol {
   list-style: none;
 }
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+padding-bottom: 26px;
+}
+
+.content__list-item {
+  display: flex;
+  width: 394px;
+  padding: 2px;
+  align-items: flex-start;
+  padding-bottom: 30px;
+}
+
+.result {
+  width: 711px;
+  
+}
+
+.result__video-container {
+  padding-bottom: 16px;
+}
