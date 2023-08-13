@@ -171,6 +171,14 @@ text-transform: uppercase;
   appearance: none;
 }
 
+.search-form__textfield:focus {
+outline: none;
+}
+
+.search-form__label:has(:focus-visible) {
+  border: 1px solid #FFF;
+}
+
 .search-form__checkbox-list{
 
 }
@@ -229,6 +237,7 @@ cursor: pointer;
 }
 
 .more-button {
-  display: flex;
-  padding: 6px 147px;
+  width: 399px;
+padding: 6px 145px;
+
 }
