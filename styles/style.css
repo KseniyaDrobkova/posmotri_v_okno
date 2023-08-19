@@ -43,7 +43,7 @@ ol {
 }
 
 .preloader-template {
-  position: absolute;
+  position: relative;
 }
 
 .visually-hidden {
