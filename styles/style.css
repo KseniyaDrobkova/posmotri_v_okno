@@ -169,8 +169,14 @@ input[type="checkbox"]:checked + span {
   line-height: normal;
 }
 
+.button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .button:active {
   background: #545050;
+  text-decoration: none;
 }
 
 .button:focus {
@@ -180,11 +186,6 @@ input[type="checkbox"]:checked + span {
 .button:focus-visible {
   outline-offset: 1px;
   outline: 1px solid #fff;
-}
-
-.button:hover {
-  text-decoration: underline;
-  cursor: pointer;
 }
 
 .search-form__submit-button {
