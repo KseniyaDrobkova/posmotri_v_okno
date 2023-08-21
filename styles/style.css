@@ -115,6 +115,7 @@ fieldset {
   border: none;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
+  outline: none;
 }
 
 .search-form__textfield:active {
@@ -209,6 +210,11 @@ input[type="checkbox"]:checked + span {
   font-weight: 700;
   line-height: 94%;
   text-transform: uppercase;
+  margin-bottom: 26px;
+}
+
+.content__details {
+  width: 100%;
 }
 
 .content__accent {
@@ -234,7 +240,7 @@ input[type="checkbox"]:checked + span {
 }
 
 .content__list-item:not(:last-child) {
-  margin: 30px 0px;
+  margin: 0px 0px 30px 0px;
 }
 
 .content__video-card {
